@@ -28,8 +28,9 @@ Below your sanity check solve the following challenge.
 ### Automated Where's Waldo
 
 Given this Array:
+
 ```js
-let people = [["Albert","Anna"],"Ben","Carmen Sandiego","Dora","Eric","Francis","Gary","Helen","Ira",["Jake","Jane","John"],"kate","Louis","Mike","Nancy","Oscar","Paula","QuIncy","Regina","Sabrina","trevor","Unice","Victoria",["Winston","Waldo"],"Xavier","Yancy","Zack"]
+let people = ["Albert","Anna","Ben","Carmen Sandiego","Dora","Eric","Francis","Gary","Helen","Ira","Jake","Jane","John","kate","Louis","Mike","Nancy","Oscar","Paula","QuIncy","Regina","Sabrina","trevor","Unice","Victoria","Winston","Waldo","Xavier","Yancy","Zack"]
 ```
 
 Create a **function** that takes the _array_ as an arguement as well as a _name_ to search for, example: "Waldo". This **function** should find the _name_ of the person in the _array_ and immediately _return_ the name as well as the index position(s) and stop looping.
@@ -43,6 +44,13 @@ If you include _"Ben"_ and _people_ as arguements, the output should look someth
 Also handle a _return_ option if that name is not found. 
 
 #### Bonus Objective
+Given the following array refactor the function to check for mix data types.
+
+```js
+let people = [["Albert","Anna"],"Ben","Carmen Sandiego","Dora","Eric","Francis","Gary","Helen","Ira",["Jake","Jane","John"],"kate","Louis","Mike","Nancy","Oscar","Paula","QuIncy","Regina","Sabrina","trevor","Unice","Victoria",["Winston","Waldo"],"Xavier","Yancy","Zack"]
+```
+
+#### Bonus Bonus Objective
 Make your function able to search through without case-sensitivity. Example, searching for "WaLDo" should find Waldo.
 
 ## Submission
