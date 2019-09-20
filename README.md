@@ -38,7 +38,7 @@ Create a **function** that takes the _array_ as an arguement as well as a _name_
 If you include _"Ben"_ and _people_ as arguements, the output should look something like this:
 
 ```js
-'I found Ben, he was at array[1]!'
+'I found Ben, he was at array[2]!'
 ```
 
 Also handle a _return_ option if that name is not found. 
