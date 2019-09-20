@@ -28,7 +28,7 @@ Below your sanity check solve the following challenge.
 ### Automated Where's Waldo
 
 Given this Array:
-```
+```js
 let people = [["Albert","Anna"],"Ben","Carmen Sandiego","Dora","Eric","Francis","Gary","Helen","Ira",["Jake","Jane","John"],"kate","Louis","Mike","Nancy","Oscar","Paula","QuIncy","Regina","Sabrina","trevor","Unice","Victoria",["Winston","Waldo"],"Xavier","Yancy","Zack"]
 ```
 
@@ -36,7 +36,7 @@ Create a **function** that takes the _array_ as an arguement as well as a _name_
 
 If you include _"Ben"_ and _people_ as arguements, the output should look something like this:
 
-```
+```js
 'I found Ben, he was at array[1]!'
 ```
 
